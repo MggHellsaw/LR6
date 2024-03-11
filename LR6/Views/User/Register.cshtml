@@ -1,0 +1,14 @@
+﻿@model LR6.Models.User
+
+<form asp-action="Register" method="post">
+    <label>First Name:</label>
+    <input type="text" asp-for="FirstName" />
+
+    <label>Last Name:</label>
+    <input type="text" asp-for="LastName" />
+
+    <label>Date of Birth:</label>
+    <input type="date" asp-for="DateOfBirth" />
+
+    <button type="submit">Submit</button>
+</form>
